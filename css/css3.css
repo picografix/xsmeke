@@ -1,0 +1,35 @@
+  
+  .scene {
+	position: absolute;
+	width: 100%;
+	-webkit-transform: translateY(var(--translateY));
+			transform: translateY(var(--translateY));
+	will-change: transform;
+  }
+
+  @import 'https://fonts.googleapis.com/css?family=Roboto+Mono:400';
+  html,
+  body {
+	font-family: 'Roboto Mono', monospace;
+	background: #000;
+	height: 5000px;
+
+	transition: 1s background linear;
+  }
+  .container {
+
+	height: 1300px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  }
+  .dud {
+	color: #cbb;
+  }
+  .scrambled {
+	position: relative;
+	font-size: 56px;
+	color: #fffafa;
+  }
+  
