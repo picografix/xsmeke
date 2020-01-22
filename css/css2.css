@@ -1475,7 +1475,7 @@ header .global-nav__sns a:last-child {
 @media screen and (max-width:420px) {
 	.skill-set__bar {
 	height:0.7rem}
-	
+
 }
 .skill-set__bar:after {
 	content:"";
@@ -1638,7 +1638,7 @@ to {
 	width:10%}
 to {
 	width:40%}
-} 	
+}
 
 .dsl-wrap {
 	width:100%
@@ -1692,5 +1692,3 @@ to {
 	-webkit-box-shadow:0px 33px 84px -20px rgba(7,  33,  66,  0.5);
 	box-shadow:0px 33px 84px -20px rgba(7,  33,  66,  0.5)}
 }
-
-
