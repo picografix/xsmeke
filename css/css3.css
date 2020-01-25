@@ -3,7 +3,7 @@
 
 
   .blog-heading{
-    
+
     padding-top: 100px;
 	  font-size: 28px;
 	  position: relative;
@@ -101,7 +101,7 @@
     background-size: cover;
     background-position: center;
   }
-  
+
   @-webkit-keyframes bubble-size {
     0%, 75% {
       width: var(--size, 4rem);
@@ -112,7 +112,7 @@
       height: 0rem;
     }
   }
-  
+
   @keyframes bubble-size {
     0%, 75% {
       width: var(--size, 4rem);
@@ -139,7 +139,7 @@
       bottom: var(--distance, 10rem);
     }
   }
-  
+
 
 
 
@@ -148,7 +148,7 @@
   html{
 	background-color: #66C3D0;
   }
-  
+
   svg{
 	width: 100%;
   }
