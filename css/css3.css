@@ -1,20 +1,35 @@
 
 
+  .main-intro{
 
+    margin-top: -80px;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: #3A3939;
+    position: relative;
+    font-size: 28px;
+
+  }
 
   .blog-heading{
 
-    padding-top: 100px;
+    padding-top: 10px;
 	  font-size: 28px;
 	  position: relative;
-	  color: #00aeff;
+    color: #4D5C7B;
+    padding-right: 50px;
+    padding-left: 50px;
   }
   .blog-content{
 	  font-size: 20px;
-	  position: relative;
-    color: #fffafa;
-    padding-bottom: 200px;
+    position: relative;
+    font-weight: 600;
+    color: #3A3939;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
+
 
 
 
@@ -32,6 +47,7 @@
     font-family: 'Open Sans', sans-serif;
   }
   body .footer {
+    margin-top: 150px;
     z-index: 1;
     --footer-background:#56698F;
     display: grid;
