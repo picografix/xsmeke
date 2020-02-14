@@ -426,6 +426,31 @@
     </main>
 
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLf3Br00q6GJbts6nKLNFzhyfohABDOAw",
+    authDomain: "vikings-in-the-sea.firebaseapp.com",
+    databaseURL: "https://vikings-in-the-sea.firebaseio.com",
+    projectId: "vikings-in-the-sea",
+    storageBucket: "vikings-in-the-sea.appspot.com",
+    messagingSenderId: "161401608315",
+    appId: "1:161401608315:web:fc7acf80cef3b026852ade",
+    measurementId: "G-QJ4LWH4S3Y"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
   </body>
 
 
